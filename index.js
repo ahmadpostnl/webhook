@@ -8,7 +8,7 @@ app.use(express.json()); // Middleware to parse JSON bodies
 app.use(express.urlencoded({ extended: true })); //  Optional: Parse URL-encoded bodies
 
 // Webhook endpoint
-app.post("/webhook", (req, res) => {
+app.post("/event", (req, res) => {
   const data = req.body;
   console.log("Received webhook data:", data);
 

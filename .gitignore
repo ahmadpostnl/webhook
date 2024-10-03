@@ -1,0 +1,83 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*  # This handles different environment files like .env.production, .env.local, etc.
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Build output (like compiled assets)
+dist/
+build/
+tmp/
+out/
+coverage/
+.cache/
+
+# IDE and editor config files
+*.swp       # Vim swap files
+*~          # Temporary files
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Test coverage and reports
+coverage/
+*.lcov
+nyc_output/
+
+# GitHub or GitLab CI/CD specific files
+.github/
+.gitlab-ci.yml
+.gitlab/
+
+# Local development files
+*.local
+*.pid
+*.seed
+*.pid.lock
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Python related (if applicable)
+__pycache__/
+*.py[cod]
+
+# Ruby related (if applicable)
+*.gem
+.rvm/
+
+# Python virtualenv
+venv/
+.venv/
+
+# JavaScript/
